@@ -1,0 +1,25 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    overflow: hidden;
+}
+
+canvas {
+    background-color: #1e293b;
+    border-radius: 0.5rem;
+    box-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+}
+
+.log-panel::-webkit-scrollbar {
+    width: 6px;
+}
+
+.log-panel::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 3px;
+}
+
+.cyber-glow {
+    box-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+}
