@@ -1,14 +1,15 @@
-# SOC Simulator: Pipeline Híbrido 🛡️🤖
+# SOC Simulator: Pipeline Híbrido
 
 Um simulador interativo de pipeline de detecção para Centros de Operações de Segurança (SOC), desenvolvido em HTML5 Canvas, Vanilla CSS, Tailwind CSS e Vanilla JavaScript.
 
 O projeto simula um fluxo de tráfego de rede passando por duas camadas principais de defesa:
+
 1. **Regras Estáticas (Firewall)**: Filtra ameaças conhecidas e óbvias por assinatura (ex: SQL Injection, XSS) em tempo real.
 2. **Heurística (LLM Local)**: Analisa logs de anomalias mais complexas e comportamentos furtivos (ex: Brute Force lento) por meio de uma fila de análise heurística.
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - **Injeção Dinâmica de Eventos**: Botões para injetar tráfego Legítimo, Ataques Óbvios ou Ataques Furtivos na rede.
 - **Visualização com Canvas**: Animação em tempo real que exibe os pacotes trafegando, sendo bloqueados pelo Firewall ou sendo enfileirados para análise da IA.
@@ -17,7 +18,7 @@ O projeto simula um fluxo de tráfego de rede passando por duas camadas principa
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 A estrutura foi modularizada para melhor manutenção e legibilidade do código:
 
@@ -32,13 +33,13 @@ Simulador/
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5 & Semantic HTML**
 - **JavaScript (ES6+)**
 - **HTML5 Canvas API** (para renderização gráfica dos pacotes)
 - **Tailwind CSS** (para estilização rápida e design responsivo)
-- **Google Fonts** (Fonte *Inter*)
+- **Google Fonts** (Fonte _Inter_)
 
 ---
 
